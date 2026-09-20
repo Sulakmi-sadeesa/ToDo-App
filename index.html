@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ToDo · Task List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Kalam:wght@400;700&family=Gochi+Hand&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+      <h1 class="title">
+        ToDo
+        <span class="title-dot"></span>
+      </h1>
+    </header>
+
+    <div class="input-bar">
+      <input type="text" id="taskInput" placeholder="What needs to be done?" maxlength="120" />
+      <button class="submit-btn" id="addBtn">Add</button>
+    </div>
+
+    <div class="main-layout">
+      <div class="left-col">
+        <div class="tabs">
+          <button class="tab active" data-filter="all">All Tasks</button>
+          <button class="tab" data-filter="pending">In Progress</button>
+          <button class="tab" data-filter="completed">Completed</button>
+        </div>
+
+        <div class="task-list" id="taskList"></div>
+      </div>
+
+      <aside class="right-col">
+        <div class="stats-note">
+          <div class="sidebar-title">My Day</div>
+          <div class="stat-row">
+            <span>Total</span>
+            <span id="totalCount">0</span>
+          </div>
+          <div class="stat-row">
+            <span>Done</span>
+            <span id="completedCount">0</span>
+          </div>
+          <div class="stat-row">
+            <span>Left</span>
+            <span id="pendingCount">0</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-title">Priority</div>
+          <div class="option-group">
+            <label>Level</label>
+            <select id="priority">
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+            </select>
+          </div>
+          <div class="option-group">
+            <label>Deadline</label>
+            <input type="date" id="deadline" />
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
