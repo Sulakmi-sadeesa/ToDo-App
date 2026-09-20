@@ -21,9 +21,9 @@ A modern, hand-drawn style task manager built with vanilla HTML, CSS, and JavaSc
 
 ## 🖼 Preview
 
-| Desktop | Mobile |
-|---------|--------|
-| ![Desktop](./preview-desktop.png) | ![Mobile](./preview-mobile.png) |
+| Desktop |
+|---------|
+| ![Desktop](./preview-desktop.jpeg) |
 
 ---
 
