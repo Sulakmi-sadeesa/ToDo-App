@@ -41,12 +41,6 @@ No frameworks. No build step. No dependencies.
 
 ---
 
-## 🚀 Live Demo
-
-👉 **[Try TaskFlow here](https://Sulakmi-Sadeesa.github.io/ToDo-App/)**
-
----
-
 ## 📦 Getting Started
 
 ### Option 1 — Just open it
