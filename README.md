@@ -1,6 +1,6 @@
 # ToDo-App
 
-A modern, hand-drawn style task manager built with vanilla HTML, CSS, and JavaScript. Featuring a pastel notebook aesthetic, priority levels, deadlines, and dark mode — all in a single lightweight app with zero dependencies.
+A modern, hand-drawn style task manager built with vanilla HTML, CSS, and JavaScript. Featuring a pastel notebook aesthetic, priority levels, deadlines, and dark mode.
 
 ---
 
@@ -37,16 +37,14 @@ A modern, hand-drawn style task manager built with vanilla HTML, CSS, and JavaSc
 | LocalStorage API | Data persistence |
 | Google Fonts | Patrick Hand · Kalam · Gochi Hand |
 
-No frameworks. No build step. No dependencies.
-
 ---
 
 ## 📦 Getting Started
 
-### Option 1 — Just open it
+### Just open it
 
 1. Clone or download this repo
 2. Open `index.html` in your browser
 
-That's it. No install, no build.
+
 
